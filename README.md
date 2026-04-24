@@ -1,121 +1,130 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/CTRLMarcws/PetsAnatomy?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/CTRLMarcws/PetsAnatomy">
-  <a href="https://github.com/CTRLMarcws/PetsAnatomy/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CTRLMarcws/PetsAnatomy">
-  </a>
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/CTRLMarcws/PetsAnatomy/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/CTRLMarcws/PetsAnatomy?style=social">
-  </a>
+  <img alt="Lenguajes" src="https://img.shields.io/badge/Java-CSS-blue">
+  <img alt="Tamaño del repositorio" src="https://img.shields.io/github/repo-size/isairey/tu-repo">
+  <img alt="Último commit" src="https://img.shields.io/github/last-commit/isairey/tu-repo">
+  <img alt="Licencia" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
 <h1 align="center">
-    <img alt="PetsAnatomy" title="#PetsAnatomy" src="./.github/banner.png"/>
+    🐾 Sistema de Clínica Veterinaria
 </h1>
 
 <h3 align="center"> 
-	<b>🚧  PetsAnatomy Em Construção 🏗️  🚧</b>
-  <img alt="GifPets" title="#GifPets" src="./.github/pets-outline.gif"/>
+	🚧 Sistema en desarrollo 🚧
 </h3>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-sobre-el-proyecto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#-ejecución">Ejecución</a> • 
+ <a href="#-tecnologías">Tecnologías</a> • 
+ <a href="#-contribución">Contribución</a> • 
+ <a href="#-licencia">Licencia</a>
 </p>
 
-## 💻 Sobre o projeto
+---
 
-🐶 PetsAnatomy - é um sistema para gerenciamento de uma Clínica Veterinária.
+## 💻 Sobre el proyecto
 
-Projeto foi desenvolvido durante a disciplina de **POO - Programação Orientada a Objetos** lecionada por [Antonio Rodrigues Carvalho Neto](https://github.com/antoniorcn).
+🐶 **Sistema de Clínica Veterinaria** es una aplicación desarrollada en **Java**, con estilos en **CSS**, que permite la gestión de una clínica veterinaria.
+
+El sistema fue diseñado bajo el paradigma de **Programación Orientada a Objetos (POO)**, permitiendo una estructura organizada, modular y fácil de mantener.
 
 ---
+
 ## ⚙️ Funcionalidades
 
-- [x] Login
-- [x] Cadastro
-- [x] Crud Agendamentos
-- [x] Crud Pacientes
-- [x] Crud Donos
-- [x] Crud Funcionários
+* [x] 🔐 Inicio de sesión
+* [x] 👤 Registro de usuarios
+* [x] 📅 Gestión de citas
+* [x] 🐾 Gestión de mascotas
+* [x] 👥 Gestión de dueños
+* [x] 🏥 Gestión de personal
 
 ---
 
-## 🎨 Layout
+## 🎨 Interfaz
 
-O layout da aplicação está disponível no Figma:
+El sistema cuenta con una interfaz desarrollada con **CSS**, enfocada en:
 
-<a href="https://www.figma.com/file/IfZvOoAzbxHZ7cisVcKPlW/Protótipos?node-id=0%3A1">
-  <img alt="Made by Ana, Karen e Marcos" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
-
-<p align="center">
-  <img alt="Login" title="#Login" src="./.github/login.png" width="1000px">
-  <img alt="Dashboard" title="#dashboard" src="./.github/dashboard.png" width="1000px">
-    <img alt="Appointment" title="#appointment" src="./.github/appointment.png" width="1000px">
-</p>
+* Diseño limpio
+* Navegación sencilla
+* Visualización clara de datos
 
 ---
 
-## 🚀 Como executar o projeto
-### Pré-requisitos
+## 🚀 Ejecución del proyecto
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Java 1.8](https://www.oracle.com/java/technologies/downloads/#java8-windows). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou [Eclipse](https://www.eclipse.org/downloads/packages/installer).
+### 📋 Requisitos
 
-```bash
+Antes de comenzar necesitas:
 
-# Clone este repositório
-$ git clone git@github.com:CTRLMarcws/PetsAnatomy.git
+* [Git](https://git-scm.com/)
+* [Java 8 o superior](https://www.oracle.com/java/technologies/downloads/)
+* IDE (VS Code, Eclipse o IntelliJ)
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd PetsAnatomy
+---
 
+### ▶️ Pasos
+
+```bash id="w8n3k1"
+# Clonar repositorio
+git clone https://github.com/isairey/tu-repo.git
+
+# Entrar al proyecto
+cd tu-repo
 ```
 
-Mover o arquivo [AuthMDB.java](./.github/AuthMDB.java) para a pasta utils.
+---
 
-<img alt="EstruturaUtils" title="#EstruturaUtils" src="./.github/EstruturaUtils.png" width="300px">
+### ⚙️ Ejecución
+
+* Abrir el proyecto en tu IDE
+* Ejecutar la clase principal (`Main.java`)
+* Verificar la conexión a base de datos si aplica
 
 ---
 
-## 🛠 Tecnologias
+## 📁 Estructura del Proyecto
 
-As seguintes ferramentas foram usadas na construção do projeto:
-
-#### **Utilitários**
-
--   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (PetsAnatomy)](https://www.figma.com/file/IfZvOoAzbxHZ7cisVcKPlW/Protótipos?node-id=0%3A1)**
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
--   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://github.com/ikatyang/emoji-cheat-sheet)**
--   Ícones:  **[FlatIcon](https://www.flaticon.com/)**
--   Fontes:  **[Poppins](https://fonts.google.com/specimen/Poppins)**
----
-
-## 👨‍💻 Contribuidores
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/anabalves"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/63269304?v=4" width="100px;" alt=""/><br /><sub><b>Ana Alves</b></sub></a><br /><a href="https://github.com/anabalves" title="Perfil Ana">🚀</a></td> 
-    <td align="center"><a href="https://github.com/CTRLMarcws"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/59204054?v=4" width="100px;" alt=""/><br /><sub><b>Marcos Filipe</b></sub></a><br /><a href="https://github.com/CTRLMarcws" title="Perfil Marcos">🚀</a></td>
-  </tr>
-</table>
-
-## 💪 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
+```id="k3m9p2"
+📦 SistemaVeterinaria
+ ┣ 📂 src/
+ ┃ ┣ 📂 models/
+ ┃ ┣ 📂 controllers/
+ ┃ ┣ 📂 services/
+ ┃ ┗ 📂 utils/
+ ┣ 📂 css/
+ ┗ 📄 Main.java
+```
 
 ---
 
-## 📝 Licença
+## 🛠️ Tecnologías
 
-Este projeto esta sobe a licença [MIT](/LICENSE).
+* ☕ Java
+* 🎨 CSS
+* 🧠 Programación Orientada a Objetos (POO)
+
+---
+
+## 🤝 Contribución
+
+1. Haz un fork del proyecto
+2. Crea una rama (`git checkout -b feature/nueva`)
+3. Realiza tus cambios
+4. Commit (`git commit -m "Nueva funcionalidad"`)
+5. Push (`git push origin feature/nueva`)
+6. Abre un Pull Request
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Isai Reyes**
