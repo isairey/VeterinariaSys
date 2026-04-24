@@ -69,10 +69,10 @@ Antes de comenzar necesitas:
 
 ```bash id="w8n3k1"
 # Clonar repositorio
-git clone https://github.com/isairey/tu-repo.git
+git clone https://github.com/isairey/VeterinariaSys.git
 
 # Entrar al proyecto
-cd tu-repo
+cd VeterinariaSys
 ```
 
 ---
