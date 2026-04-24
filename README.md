@@ -1,7 +1,7 @@
 <p align="center">
   <img alt="Lenguajes" src="https://img.shields.io/badge/Java-CSS-blue">
-  <img alt="Tamaño del repositorio" src="https://img.shields.io/github/repo-size/isairey/tu-repo">
-  <img alt="Último commit" src="https://img.shields.io/github/last-commit/isairey/tu-repo">
+  <img alt="Tamaño del repositorio" src="https://img.shields.io/github/repo-size/isairey/VeterinariaSys">
+  <img alt="Último commit" src="https://img.shields.io/github/last-commit/isairey/VeterinariaSys">
   <img alt="Licencia" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
